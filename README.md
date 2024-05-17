@@ -65,7 +65,7 @@ Input the degree of opacity the original image will have in output GIF. A lower 
 The value input in this parameter is a general sliding scale for the speed between changes in each reference frame. A lower value will produce a shorter GIF, a higher value a longer one. Determine a ballpark number that works for you and adjust as needed. 
 
 ## Running ELA Ally
-The script should begin running after you have entered in frame duration. To tell if it is, look in the directory you selected for output. There should be a new sub-folder in the destination directory that has a timestamped name with the parameters selected and all the files generated from running the script. A total of 99 compressed images of decreasing fidelity and 99 ELA filtered images representing each increment as it is analyzed. You will know the script has finished when the GIF has been rendered and is also in the same folder you selected.
+The script should begin running after you have entered in frame duration. To tell if it is, look in the directory you selected for output. There should be a new sub-folder in the destination directory that has a timestamped name with the parameters selected and all the files generated from running the script. A total of 99 compressed images of decreasing fidelity and 99 ELA filtered images representing each increment as it is analyzed should be present. You will know the script has finished when the GIF has been rendered and can be found in the same folder you initially selected for output.
 
 A final prompt should appear when the GIF has finished rendering.
 

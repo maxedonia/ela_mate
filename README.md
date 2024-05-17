@@ -3,6 +3,6 @@ Error Level Analysis (ELA) detects alterations in images by highlighting discrep
 
 There is usually a chronology of authorship when it comes to images that have spread widely across the internet, often with each owner having their own obligatory digital fingerprint. In some cases, artifacts of ownership are observable right away. Other times they are very hard to find. But in any case, one of the best ways to judge if an image has been distorted is by the way in which it may have digitally 'decayed' over time. By reducing an image down to it's limits, and by animating this degradation over a wide spectrum, one can possibly glean further insight into the degree of ownership and/or authenticity present using this script.
 
-I do not claim to be a forensic analyst. not on git at least. This was more a hobbyist labor of love, probably already exists in better code, and was solely made for making this process specifically less of a task for me. But with that said, I hope it's useful to you in some way.
+I do not claim to be a forensic analyst (...not on git, anyway). This was more a hobbyist's labor of love, and likely probably already exists! And with better code, I bet. But it is and was solely made for making this process specifically less of a task for me. If you can find some use for it, I am happy to help. Let me know if you have any issues, pulls, etc.
 
 -m

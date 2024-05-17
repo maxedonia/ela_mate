@@ -67,9 +67,11 @@ The value input in this parameter is a general sliding scale for the speed betwe
 ## Running ELA Ally
 The script should begin running after you have entered in frame duration. To tell if it is, look in the directory you selected for output. There should be a new sub-folder in the destination directory that has a timestamped name with the parameters selected and all the files generated from running the script. A total of 99 compressed images of decreasing fidelity and 99 ELA filtered images that represent an error analysis will be present, as well as the output GIF.
 
-A final prompt will appear upon completion of rendering the GIF. _((**Note**: All images generated from the script will reference the original image's pixel resolution. Keep file size in mind when rendering your GIF, as it will include many instances of reference of the same size))_ 
+A final prompt will appear upon completion of rendering the GIF. 
 
 **Do you want to process another image? (yes/no/repeat):**
 Typing '**yes**' _or_ '**y**' will restart the script, allowing you to select a new image to process, the desired destination directory, as well as new parameters for the rendering.
 Typing '**no**' _or_ '**n**' will shut down the script and exit the terminal window.
 Typing '**repeat**' _or_ '**r**' _will automatically re-select the last reference image and base output directory_, allowing you to quickly try new parameters with the same source to compare with the previous settings you chose.
+
+## _((**Note**: All images generated from the script will reference the original image's pixel resolution. Keep file size in mind when rendering your GIF, as a 1000x1000  image will generate 198 more processed images of the same pixel width and height!))_ 

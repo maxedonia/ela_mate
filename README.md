@@ -1,4 +1,4 @@
-# **ELAlly**
+# **ELA Animate**
 
 ## **Error Level Analysis**
 Digitally editing photos, whether through AI filtering, Photoshop, Facetune, etc., can quickly diminish the original composition's contrast, lighting, sharpness, color & gradation. By comparison, unedited images maintain these characteristics, and thereby reflect the accuracy of a digital photo's composition. This cohesion is also observable when an unaltered image is compressed to only a fraction of it's original fidelity. **Error Level Analysis (ELA)** is a tool that can be used in forensic analysis of a digital image by identifying portions of a photo that do not accurately reflect the expected output of the composition when compressed. A more thorough explanation of ELA can be [found here](https://fotoforensics.com/tutorial-ela.php).
@@ -6,9 +6,9 @@ Digitally editing photos, whether through AI filtering, Photoshop, Facetune, etc
 
 The artifacts left behind in an image that has signs of warping, facetuning, filtering, cloning, etc. are difficult to separate from the image or any future versions of it. What remains present won't disappear if the image is resized or converted to a different format, either. Any additional manipulation will only compound the evidence that is already embedded from previous edits and ultimately reduce the image's overall quality & fidelity, as well as further obfuscate its origin or authorship.
 
-ELAlly works by compressing and filtering the image at incremental stages of decreased resolution. These results are then compiled into an animated GIF. The options for output also includes the speed at which the frames are composited, the ability to blend output with the original reference image, and tuning the scale of ELA present in resulting output.
+ELA Animate works by compressing and filtering the image at incremental stages of decreased resolution. These results are then compiled into an animated GIF. The options for output also includes the speed at which the frames are composited, the ability to blend output with the original reference image, and tuning the scale of ELA present in resulting output.
 
-_Note: This tool was made with digital literacy in mind and is not meant for legal or forensic use. Any conclusions or assessements made using ELAlly are not endorsed by its creator. Please use responsibly._
+_Note: This tool was made with digital literacy in mind and is not meant for legal or forensic use. Any conclusions or assessements made using ELA Animate are not endorsed by its creator. Please use responsibly._
 
 ## Installation
 To run the script, which includes image processing and manipulation functionalities, you'll need Python installed along with specific libraries that the script depends upon:
@@ -32,8 +32,8 @@ If your script extends to handling metadata extraction or other specialized imag
 **NumPy**: Sometimes used in image processing for more complex numerical operations.
 `pipinstall NumPy`
 
-## Running ELAlly
-Navigate to the directory containing ELAlly and run it as a .py file or by using the following console command:
+## Running ELA Animate
+Navigate to the directory containing ELA Animate and run it as a .py file or by using the following console command:
 
 `python ELA_ALLY_v1.py`
 
@@ -64,7 +64,7 @@ Input the degree of opacity the original image will have in output GIF. A lower 
 
 The value input in this parameter is a general sliding scale for the speed between changes in each reference frame. A lower value will produce a shorter GIF, a higher value a longer one. Determine a ballpark number that works for you and adjust as needed. 
 
-## Running ELAlly
+## Running ELA Animate
 The script should begin running after you have entered in frame duration. To tell if it is, look in the directory you selected for output. There should be a new sub-folder in the destination directory that has a timestamped name with the parameters selected and all the files generated from running the script. A total of 99 compressed images of decreasing fidelity and 99 ELA filtered images representing each increment as it is analyzed should be present. You will know the script has finished when the GIF has been rendered and can be found in the same folder you initially selected for output.
 
 A final prompt should appear when the GIF has finished rendering.

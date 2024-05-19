@@ -45,7 +45,7 @@ If all conditions have been met, the terminal will open and the following prompt
 **'Enter the path to the image file (JPG, PNG, or WEBP):'**
 
 Input the file address of the image to be used, or simply drag and drop directly into terminal window. Then press enter.
-_((**Note**: Only JPG, PNG, or WEBP files are currently recognized and tested for this script.))_
+_((**Note**: At this time, **only JPG, PNG, or WEBP** files have been tested with this script.))_
 
 **'Enter the base output directory:'**
 

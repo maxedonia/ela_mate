@@ -126,8 +126,11 @@ The following image was taken on a Canon EOS Rebel T7i with an ultra-wide lens:
   - Typing '**no**' _or_ '**n**' will shut down the script and exit the terminal window.
   - Typing '**repeat**' _or_ '**r**' will _automatically re-select the last reference image and base output directory_, allowing for quick tweaking of settings of the output using the same image as the previous analysis.
 
-    <sup>_**Note**: The console window should close automatically if **no** is selected.
+    <sup>_**Note**: The console window should close automatically if **no** is selected._
 
-
-
+Here are some side-by-side comparison GIFs of the same source image, each labelled with the parameters used for their generation:
+![gid example A](https://github.com/maxedonia/animate_ela/assets/47838472/0ea0edb1-0093-419d-a533-77e81dc6b9b1)
+![gid example B](https://github.com/maxedonia/animate_ela/assets/47838472/a2bcf51a-5023-43b1-8086-086910033a9a)
+![gid example C](https://github.com/maxedonia/animate_ela/assets/47838472/589ac347-b800-4635-b024-ae286cfdce24)
+![gid example D](https://github.com/maxedonia/animate_ela/assets/47838472/fb8abc3c-c8ea-4c7a-835c-5f1d38a3c3d0)
 

@@ -132,6 +132,7 @@ Here are some side-by-side comparison GIFs of the same source image, each labell
 ![gid example B](https://github.com/maxedonia/animate_ela/assets/47838472/a2bcf51a-5023-43b1-8086-086910033a9a)
 ![gid example C](https://github.com/maxedonia/animate_ela/assets/47838472/589ac347-b800-4635-b024-ae286cfdce24)
 ![gid example D](https://github.com/maxedonia/animate_ela/assets/47838472/fb8abc3c-c8ea-4c7a-835c-5f1d38a3c3d0)
+
   <sup>_**Note**: parameters have been added to example GIFs for clarity and are **not currently featured** in ELA Mate's output at this time._</sup>
 
 

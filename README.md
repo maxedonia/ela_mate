@@ -87,7 +87,7 @@ If all conditions have been met, the terminal will open and the following prompt
 Your console window should look similar to the one below before you execute.
 ![settings](https://github.com/maxedonia/animate_ela/assets/47838472/02261365-1f04-459f-8278-480b0f218869)
 
-Upon pressing enter, the script will do the following actions in order: 
+Upon pressing enter, the script will do the following actions in sequence: 
   - Create a new folder in the selected output directory that is timestamped and labeled with the parameters you selected. 
   - Generate two sets of images
     - A total of 99 images generated with the length and width of the reference image, and with each image in the set having a higher incremental degree of compression relative to the original reference image.

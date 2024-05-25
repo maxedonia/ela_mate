@@ -99,7 +99,7 @@ Upon pressing enter, the script will do the following actions in order:
 
 
 
-## Examples & Case Usage
+## Basic Operation
 
 The following image was taken on a Canon EOS Rebel T7i with an ultra-wide lens:
 ![ELA example1](https://github.com/maxedonia/animate_ela/assets/47838472/d32815d6-8af6-4593-9ea4-457518cf5181)
@@ -112,10 +112,8 @@ The following image was taken on a Canon EOS Rebel T7i with an ultra-wide lens:
   ![output example1 small size](https://github.com/maxedonia/animate_ela/assets/47838472/adc31e6a-8135-4e8e-b0cc-e46be682a62c)
 
   ... followed by the compiled GIF with the user defined parameters applied to it in the destination folder.
+![ELA_Original_Blended_Animation_resized_1](https://github.com/maxedonia/animate_ela/assets/47838472/e2c1213d-9753-4351-a552-cc505c4e90de)
 
-  ![GIF example 1](https://github.com/maxedonia/animate_ela/assets/47838472/7d488347-9822-43b2-a820-191bcbfae618)
-
-  <sup>_**Note**: parameters have been added to example GIFs for clarity and are **not currently featured** in ELA Mate's output at this time._</sup>
 
   A final prompt should appear when the script has completed.
 
@@ -128,9 +126,12 @@ The following image was taken on a Canon EOS Rebel T7i with an ultra-wide lens:
 
     <sup>_**Note**: The console window should close automatically if **no** is selected._
 
+## Examples of Differentiated Output
 Here are some side-by-side comparison GIFs of the same source image, each labelled with the parameters used for their generation:
 ![gid example A](https://github.com/maxedonia/animate_ela/assets/47838472/0ea0edb1-0093-419d-a533-77e81dc6b9b1)
 ![gid example B](https://github.com/maxedonia/animate_ela/assets/47838472/a2bcf51a-5023-43b1-8086-086910033a9a)
 ![gid example C](https://github.com/maxedonia/animate_ela/assets/47838472/589ac347-b800-4635-b024-ae286cfdce24)
 ![gid example D](https://github.com/maxedonia/animate_ela/assets/47838472/fb8abc3c-c8ea-4c7a-835c-5f1d38a3c3d0)
+  <sup>_**Note**: parameters have been added to example GIFs for clarity and are **not currently featured** in ELA Mate's output at this time._</sup>
+
 

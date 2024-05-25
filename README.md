@@ -8,7 +8,7 @@ The artifacts left behind in an image that has signs of distortion (warping, fac
 
 ELA Mate works by compressing and filtering the image at incremental stages of decreased resolution. These results are then compiled into an animated GIF. The options for GIF output also includes the speed at which the frames of each image are referenced, tuning the scale of the error level analysis, and the ability to blend the ELA output with the original reference image.
 
-_Note: This tool was made with digital literacy in mind and is not meant for legal or forensic use. Any conclusions or assessements made using ELA Mate are not endorsed by its creator. Please use responsibly._
+***Note: This tool was made with digital literacy in mind and is not meant for legal or forensic use. Any conclusions or assessements made when using ELA Mate are not reflective of the opinions nor endorsed by its creator. Please use these tools responsibly.***
 
 ## Installation
 To run the script, which includes image processing and manipulation functionalities, you'll need Python installed along with specific libraries that the script depends upon:
@@ -32,7 +32,7 @@ If your script extends to handling metadata extraction or other specialized imag
 **NumPy**: Sometimes used in image processing for more complex numerical operations.
 `pipinstall NumPy`
 
-## Running ELA Mate
+## Start ELA Mate
 Navigate to the directory containing ELA Mate and run it as a .py file or by using the following console command:
 
 `python ELA_ALLY_v1.py`
@@ -45,7 +45,7 @@ If all conditions have been met, the terminal will open and the following prompt
 **'Enter the path to the image file (JPG, PNG, or WEBP):'**
 
 Input the file address of the image to be used, or simply drag and drop directly into terminal window. Then press enter.
-_((**Note**: At this time, **only JPG, PNG, or WEBP** files have been tested with this script.))_
+_**Note**: At this time, **only JPG, PNG, or WEBP** files have been tested with this script._
 
 **'Enter the base output directory:'**
 
@@ -58,35 +58,44 @@ Input the amount of ELA presence in the GIF output. A higher number means more p
 
 **'Enter the image alpha value (0.0 to 1.0):**
 
-Input the degree of opacity the original image will have in output GIF. A lower value will output less ELA in the blended GIF and a higher value will output more ELA by comparison. Entering 0.0 will show almost no ELA in the GIF output whatsoever. Entering 1.0 will result in almost only the ELA in the GIF output. _((**Note**: If the output GIF is exceedingly bright, consider using a lower alpha value, or attenuating the ELA scale factor differently to achieve a more desired result.))_
+Input the degree of opacity the original image will have in output GIF. A lower value will output less ELA in the blended GIF and a higher value will output more ELA by comparison. Entering 0.0 will show almost no ELA in the GIF output whatsoever. Entering 1.0 will result in almost only the ELA in the GIF output. _**Note**: If the output GIF is exceedingly bright, consider using a lower alpha value, or attenuating the ELA scale factor differently to achieve a more desired result._
 
 **Enter the GIF frame duration in milliseconds:**
 
 The value input in this parameter is a general sliding scale for the speed between changes in each reference frame. A lower value will produce a shorter GIF, a higher value a longer one. Determine a ballpark number that works for you and adjust as needed. 
 
 ## Running ELA Mate
-The script should look similar to the image below. 
+The script should look similar in your console to the one seen below.
 ![settings](https://github.com/maxedonia/animate_ela/assets/47838472/02261365-1f04-459f-8278-480b0f218869)
 
-Upon pressing enter a new folder should appear in the selected output directory that is timestamped and labeled with the parameters you selected. Two sets of 99 images will be generated. One set will be the original image as it is compressed with standard jpeg compression using Pillow, and with a total of 99 instances of increasing compression of the image. A second set of each of the 99 instances under error level analysis will be generated using the ELA scale factor you selected. The images in the ELA filtered set are then compiled into a GIF that is blended with the original image depending upon the alpha value you selected.
+Upon enter, the script will do the following actions in order: 
+- Create a new folder in the selected output directory that is timestamped and labeled with the parameters you selected. 
+- Generate two sets of images
+  - A total of 99 images generated with the length and width of the reference image, and with each image in the set having a higher incremental degree of compression relative to the original reference image.
+  - A total of 99 error level analysis images generated from the set of compressed images with the user defined _ELA scale factor parameter_ upon output.
+- A GIF of the ELA generated images in sequence from highest to lowest quality and in a interval of time based upon the user defined _frame duration parameter_.
+- The GIF output compiled with the reference image that has a visibility that is determined by the _user defined alpha value parameter_ upon final output.
 
-## _((**Note**: Though the file size of images generated by the script will vary, keep in mind that the original image's resolution/aspect ratio will remain the same for each instance. Therefore, the contents of a folder that is generated from a 6000x4000 image will be significantly larger and take longer to generate than an image that is 600x400.))_ 
+## _**Note**: Though the file size of images generated by the script will vary, keep in mind that the original image's resolution/aspect ratio will remain the same for each instance. Therefore, the contents of a folder that is generated from a 6000x4000 image will be significantly larger and take longer to generate than an image that is 600x400._ 
 
 ## Examples & Case Usage
 
-Here is an image taken on a Canon EOS Rebel T7i with a wide filter:
+The following image was taken on a Canon EOS Rebel T7i with an ultra-wide lens:
 ![ELA example1](https://github.com/maxedonia/animate_ela/assets/47838472/d32815d6-8af6-4593-9ea4-457518cf5181)
-_((**Note**: this image is native to jpeg format and has not been converted. However, it has been resized from 6000x4000 to 1400x933 for demonstration.))_
 
-After processing the image using ELA Mate there is a new folder in my output directory appears and contains everything the two image sets...
+After starting the script a new folder appears in the output directory appears and will populate with the two image sets...
+
+![output example1 cropped](https://github.com/maxedonia/animate_ela/assets/47838472/e38c596f-97e1-4ff1-8e9b-90bf1314d2b6)
 
 ![output example1 small size](https://github.com/maxedonia/animate_ela/assets/47838472/adc31e6a-8135-4e8e-b0cc-e46be682a62c)
 
-... as well as the GIF compiled and rendered using the parameters you've selected:
+... followed by the compiled GIF containing the user defined parameters in destination folder.
 
-![GIF example 1 of ELA output](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWxnZjFvenhrcG80bHVvYmNzY2xuenZ1MWVyOWlvaHpsc2xraGtlZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YH9ZvnPnmQYLswRdFz/giphy-downsized-large.gif)
+![GIF example 1](https://github.com/maxedonia/animate_ela/assets/47838472/7d488347-9822-43b2-a820-191bcbfae618)
 
-A final prompt should appear when the GIF has finished rendering.
+_**Note**: parameters have been added to example GIFs sepately and are not currently included in ELA Mate's output_
+
+A final prompt should appear when the script has completed.
 
 ![settings2](https://github.com/maxedonia/animate_ela/assets/47838472/d2d1d5cf-e0e8-4e07-8c03-ef5df44cd0f3)
 
@@ -95,15 +104,11 @@ A final prompt should appear when the GIF has finished rendering.
 - Typing '**no**' _or_ '**n**' will shut down the script and exit the terminal window.
 - Typing '**repeat**' _or_ '**r**' will _automatically re-select the last reference image and base output directory_, allowing you to quickly adjust parameters while maintaining the same reference image.
 
-_(Note: There should always be a folder for each instance and regardless if the same image and/or parameters are used. The console window should close automatically in the event that running an analysis causes the script to fail. An empty folder that is timestamped is typically more indicative of a parameter 
+_**Note**: The console window should close automatically if **no** is selected, or in the event that running an analysis causes the script to fail. An empty folder that is timestamped is typically more indicative of an unrecognized parameter. If the script fails and no new folders are present, double-check that your file and output path directories are correct and that you have the proper permissions to execute the script the destination chosen._
 ![ELA_Original_Blended_Animation_resized_1](https://github.com/maxedonia/animate_ela/assets/47838472/50d8142a-9997-4763-a6f2-7e5f7068da2c)
 
-Note: GIFs 
 
-_The chosen parameters will be written directly into the folder's name when it is generated as a reference._
-_Output Parameters: scale (2), alpha (4), duration (100)_
 
-![output example1 cropped](https://github.com/maxedonia/animate_ela/assets/47838472/e38c596f-97e1-4ff1-8e9b-90bf1314d2b6)
 
 
 

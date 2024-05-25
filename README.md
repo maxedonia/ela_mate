@@ -128,6 +128,7 @@ The following image was taken on a Canon EOS Rebel T7i with an ultra-wide lens:
 
 ## Examples of Differentiated Output
 **Reference Photo**
+
 _Here are some side-by-side [comparison GIFs](https://giphy.com/channel/maxedonia/ela) of the same source image as before. Each one is labelled with the parameters used during generation:_
 
 ![gid example A](https://github.com/maxedonia/animate_ela/assets/47838472/0ea0edb1-0093-419d-a533-77e81dc6b9b1)
@@ -135,9 +136,9 @@ _Here are some side-by-side [comparison GIFs](https://giphy.com/channel/maxedoni
 ![gid example C](https://github.com/maxedonia/animate_ela/assets/47838472/589ac347-b800-4635-b024-ae286cfdce24)
 ![gid example D](https://github.com/maxedonia/animate_ela/assets/47838472/fb8abc3c-c8ea-4c7a-835c-5f1d38a3c3d0)
 
-**Touch Up effect in Windows Photos Comparison**
+**Touch Up Artifacts in Windows Photos App**
 
-_Here we have is the same photograph, but one picture has had the Edison Bulbs at the top of the image edited out using AI assisted touch-ups with the Photo app in Windows 10._
+_Here we have is the same photograph, but one picture has had the Edison Bulbs at the top of the image edited out using AI assisted touch-ups possible within the Photos app in Windows 10._
 
 ![gid example2 A](https://github.com/maxedonia/animate_ela/assets/47838472/65e476b2-3c83-4ee3-a116-b9e7856ad6fe)
 ![gid example2 B](https://github.com/maxedonia/animate_ela/assets/47838472/43db3528-8759-41b0-b435-2881d8591935)

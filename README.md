@@ -128,7 +128,7 @@ The following image was taken on a Canon EOS Rebel T7i with an ultra-wide lens:
 
 ## Examples of Differentiated Output
 **Reference Photo**
-Here are some side-by-side [comparison GIFs](https://giphy.com/channel/maxedonia/ela) of the same source image as before. Each one is labelled with the parameters used during generation:
+_Here are some side-by-side [comparison GIFs](https://giphy.com/channel/maxedonia/ela) of the same source image as before. Each one is labelled with the parameters used during generation:_
 
 ![gid example A](https://github.com/maxedonia/animate_ela/assets/47838472/0ea0edb1-0093-419d-a533-77e81dc6b9b1)
 ![gid example B](https://github.com/maxedonia/animate_ela/assets/47838472/a2bcf51a-5023-43b1-8086-086910033a9a)
@@ -136,7 +136,8 @@ Here are some side-by-side [comparison GIFs](https://giphy.com/channel/maxedonia
 ![gid example D](https://github.com/maxedonia/animate_ela/assets/47838472/fb8abc3c-c8ea-4c7a-835c-5f1d38a3c3d0)
 
 **Touch Up effect in Windows Photos Comparison**
-_This is the same photograph, but in one photo the Edison Bulbs at the top of the picture have been edited out using AI assisted touch-ups with the Photo app in Windows 10.
+
+_Here we have is the same photograph, but one picture has had the Edison Bulbs at the top of the image edited out using AI assisted touch-ups with the Photo app in Windows 10._
 
 ![gid example2 A](https://github.com/maxedonia/animate_ela/assets/47838472/65e476b2-3c83-4ee3-a116-b9e7856ad6fe)
 ![gid example2 B](https://github.com/maxedonia/animate_ela/assets/47838472/43db3528-8759-41b0-b435-2881d8591935)

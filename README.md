@@ -128,6 +128,7 @@ The following image was taken on a Canon EOS Rebel T7i with an ultra-wide lens:
 
 ## Examples of Differentiated Output
 Here are some side-by-side [comparison GIFs](https://giphy.com/channel/maxedonia/ela) of the same source image as before. Each one is labelled with the parameters used for their generation:
+
 ![gid example A](https://github.com/maxedonia/animate_ela/assets/47838472/0ea0edb1-0093-419d-a533-77e81dc6b9b1)
 ![gid example B](https://github.com/maxedonia/animate_ela/assets/47838472/a2bcf51a-5023-43b1-8086-086910033a9a)
 ![gid example C](https://github.com/maxedonia/animate_ela/assets/47838472/589ac347-b800-4635-b024-ae286cfdce24)

@@ -4,9 +4,9 @@
 Digitally editing photos, whether through AI filtering, Photoshop, Facetune, etc., can quickly diminish the original composition's contrast, lighting, sharpness, color & gradation. By comparison, unedited images maintain these characteristics, and thereby reflect the accuracy of a digital photo's composition. This cohesion is also observable when an unaltered image is compressed to only a fraction of it's original fidelity. **Error Level Analysis (ELA)** is a tool that can be used in forensic analysis of a digital image by identifying portions of a photo that do not accurately reflect the expected output of the composition when compressed. A more thorough explanation of ELA can be [found here](https://fotoforensics.com/tutorial-ela.php).
 
 
-The artifacts left behind in an image that has signs of distortion (warping, facetuning, filtering, cloning, etc.) are difficult to separate from the image or any future iterations of it. In addition, the distortion that is often the most important or worth noting are the results of portions of the photo that were indirectly impacted by morphing, but not the focus or intended. These artifacts, whether big or small, won't easily disappear by resizing the image or by converting it to a different format. Any additional manipulations will only compound and reduce the overall image quality & fidelity further, and increase its distance from the image origin and/or authorship.
+The artifacts left behind in an image that has signs of distortion (warping, facetuning, filtering, cloning, etc.) are difficult to separate from the image or any future iterations of it. In addition, many filters from applications, such as Facetune, work by distorting large bands and/or entire portions of an image, creating forced perspective or proportions at the expense of much of the image's content. These artifacts, whether big or small, won't easily disappear with resizing or conversion it to a different format. Any additional manipulations will only compound what has been left, and reduce the overall image quality & fidelity even further. This distance from origin and/or authorship is usually a signifier of content created for a purpose that is dubious, and at the very least should be considered somewhat suspicious or manipulative in its intent.
 
-ELA Mate works by compressing and filtering the image at incremental stages of decreased resolution. These results are then compiled into an animated GIF. The options for GIF output also includes the speed at which the frames of each image are referenced, tuning the scale of the error level analysis, and the ability to blend the ELA output with the original reference image.
+_**ELA Mate**_ works by compressing and filtering the image at incremental stages of decreased resolution. These results are then compiled into an animated GIF. The options for GIF output also includes the speed at which the frames of each image are referenced, tuning the scale of the error level analysis, and the ability to blend the ELA output with the original reference image.
 
 ***Note: This tool was made with digital literacy in mind and is not meant for legal or forensic use. Any conclusions or assessements made when using ELA Mate are not reflective of the opinions nor endorsed by its creator. Please use these tools responsibly.***
 
@@ -38,8 +38,8 @@ To run the script, which includes image processing and manipulation functionalit
 
 
 
-## Start ELA Mate
-Navigate to the directory containing ELA Mate and run it as a .py file or by using the following console command:
+## Start **ELA Mate**
+Navigate to the directory containing _**ELA Mate**_ and run it as a .py file or by using the following console command:
 
   `python ELA Mate_v1.py`
 
@@ -83,7 +83,7 @@ If all conditions have been met, the terminal will open and the following prompt
 
 
 
-## Running ELA Mate
+## Running **ELA Mate**
 Your console window should look similar to the one below before you execute.
 ![settings](https://github.com/maxedonia/animate_ela/assets/47838472/02261365-1f04-459f-8278-480b0f218869)
 
@@ -134,6 +134,6 @@ Here are some side-by-side [comparison GIFs](https://giphy.com/channel/maxedonia
 ![gid example C](https://github.com/maxedonia/animate_ela/assets/47838472/589ac347-b800-4635-b024-ae286cfdce24)
 ![gid example D](https://github.com/maxedonia/animate_ela/assets/47838472/fb8abc3c-c8ea-4c7a-835c-5f1d38a3c3d0)
 
-  <sup>_**Note**: parameters have been added to example GIFs for clarity and are **not currently featured** in ELA Mate's output at this time._</sup>
+  <sup>_**Note**: parameters have been added to example GIFs for clarity and are **not currently featured** in **ELA Mate**'s output at this time._</sup>
 
 

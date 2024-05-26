@@ -9,11 +9,10 @@ These artifacts, whether big or small, won't easily disappear when one resizes t
 
 A more thorough explanation of ELA can be [found here](https://fotoforensics.com/tutorial-ela.php).
 
-## **Digital Media Forensics**
 _**ELA Mate**_ works by compressing and filtering an image at incremental stages of decreased resolution. These results are then compiled into an animated GIF. The options for GIF output also includes the speed at which the frames of each image are referenced, the scale of error analysis shown, and the ability to blend the ELA output with the original reference image for comparison.
 
-
-That said, ELA is just one of _many_ tools that can be used in forensics. All of them require insight, experience, digital literacy, and an attention to detail in order to be at all worthy of using with any merit or argument. If one doesn't believe an image to be authentic, then the onus is on them to make a strong enough statement for that to be the case. One must have solid reasoning that is supplied with evidence, as well as demonstrate the capacity for identifying and minimizing one's own biases. In an age where it's easier to profit off of lies, the ability to find authenticity in our social feeds is only getting harder with time. The ability to take a photo without AI filtering on iOS in 2024 is very difficult, and that is by design. But if the truth becomes too hard to sell, and if we can't even trust our eyes, then we only pay a higher price when all that's left are lies.
+## **Digital Media Forensics**
+That said, ELA is just one of [_many_ tools](https://29a.ch/photo-forensics/#forensic-magnifier) that can be used in forensics. All of them require insight, experience, digital literacy, and an attention to detail in order to be at all worthy of using with any merit or argument. If one doesn't believe an image to be authentic, then the onus is on them to make a strong enough statement for that to be the case. One must have solid reasoning that is supplied with evidence, as well as demonstrate the capacity for identifying and minimizing one's own biases. In an age where it's easier to profit off of lies, the ability to find authenticity in our social feeds is only getting harder with time. The ability to take a photo without AI filtering on iOS in 2024 is very difficult, and that is by design. But if the truth becomes too hard to sell, and if we can't even trust our eyes, then we only pay a higher price when all that's left are lies.
 
 
 ***Note: This tool was made with digital literacy in mind and is not meant for legal or forensic use. Any conclusions or assessements made when using ELA Mate are not reflective of the opinions nor endorsed by its creator. Please use these tools responsibly.***

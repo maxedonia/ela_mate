@@ -65,7 +65,7 @@ If all conditions have been met, the terminal will open and the following prompt
 
   Input the file address of the image to be used, or simply drag and drop directly into terminal window. Then press enter.
 
-  <sup> _**Note**: At this time, **only JPG, PNG, or WEBP** files have been tested with this script._</sup> 
+  <sup> _**Note**: At this time, **only JPG, PNG, or WEBP** files are applicable. The script will convert any other format it can support into a JPG before initiating analysis._</sup> 
 
 
 **'Enter the base output directory:'**

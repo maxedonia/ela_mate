@@ -12,6 +12,8 @@ A more thorough explanation of ELA can be [found here](https://fotoforensics.com
 ![royal](https://github.com/user-attachments/assets/111aaff5-b0a8-4570-9753-0717c889a747)
 ![ela_90](https://github.com/user-attachments/assets/29e6bdf8-0755-4ff6-b124-128b00ee23d8)
 ![ela_98](https://github.com/user-attachments/assets/ecee2a0e-8fe8-48cd-9dd9-16713282a4a0)
+![Source NYT](https://github.com/user-attachments/assets/c3284033-5d77-4225-b0dc-a72a76ff52de)
+Source:[nytimes.com](https://www.nytimes.com/2024/03/11/world/europe/kate-middleton-photo-princess-wales.html)
 
 ## **ELA Mate & Forensic Analysis**
 

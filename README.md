@@ -9,6 +9,10 @@ These artifacts, whether big or small, won't easily disappear when one resizes t
 
 A more thorough explanation of ELA can be [found here](https://fotoforensics.com/tutorial-ela.php).
 
+![royal](https://github.com/user-attachments/assets/111aaff5-b0a8-4570-9753-0717c889a747)
+![ela_90](https://github.com/user-attachments/assets/29e6bdf8-0755-4ff6-b124-128b00ee23d8)
+![ela_98](https://github.com/user-attachments/assets/ecee2a0e-8fe8-48cd-9dd9-16713282a4a0)
+
 ## **ELA Mate & Forensic Analysis**
 
 _**ELA Mate**_ works by compressing and filtering an image at incremental stages of decreased resolution. These results are then compiled into an animated GIF. The options for GIF output also includes the speed at which the frames of each image are referenced, the scale of error analysis shown, and the ability to blend the ELA output with the original reference image for comparison.

@@ -9,11 +9,48 @@ These artifacts, whether big or small, won't easily disappear when one resizes t
 
 A more thorough explanation of ELA can be [found here](https://fotoforensics.com/tutorial-ela.php).
 
+## **v2 UPDATES** (3.6.25)
+I've added some features that streamline processing different images, paramaters that are within a more useful range for detection, and more references, including one  that is widely known and acknowledged to be manipulated by both the public, via publications like The New York Times, and the original author. These examples are to show the scope and range that the settings ELA_Mate_v2 can provide upon output, as well aswhat a examples of known distortion look like within the capabilities of this version's script. 
+
+*Future considerations: 
+- option to convert image to JPG from PNG, WEBP, etc. before analysis.
+- integrating _Noise Analysis_ as a secondary detection method.*
+
+### Example: The Royal Family
+_Source Image:_
+
 ![royal](https://github.com/user-attachments/assets/111aaff5-b0a8-4570-9753-0717c889a747)
+
+_ELA Hotspots Only:_
+
 ![ela_90](https://github.com/user-attachments/assets/29e6bdf8-0755-4ff6-b124-128b00ee23d8)
+
+_ELA at Half-Fidelity:_
+
 ![ela_98](https://github.com/user-attachments/assets/ecee2a0e-8fe8-48cd-9dd9-16713282a4a0)
+
+_Areas observed by naked eye:_
+
 ![Source NYT](https://github.com/user-attachments/assets/c3284033-5d77-4225-b0dc-a72a76ff52de)
-Source:[nytimes.com](https://www.nytimes.com/2024/03/11/world/europe/kate-middleton-photo-princess-wales.html)
+Source: [nytimes.com](https://www.nytimes.com/2024/03/11/world/europe/kate-middleton-photo-princess-wales.html)
+
+### Example: Self-Analysis
+
+_Edited screencap:_
+![two podcast hosts](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex1.png)
+
+_Hotspot overlay 40% opacity:_
+![without ears](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex2.png)
+
+_ELA hotspot analysis only:_
+![image overlay](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex4.png)
+
+_Circled hotspots with ELA analysis at 40% opacity:_
+![circled hotspots](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex3.png)
+
+*This example shows where edits have been made explicitly with the intention of being known. The hotspots indicating manipulation are circled and can be observed under ELA. I removed the ears of both subjects, as well as attempted to cover up tattoos on the right biceps of each individual using Photoshop. Additional evidence shows that I cropped the image at some point due to the lighter banding along the top border that appears in the images during analysis).*
+
+
 
 ## **ELA Mate & Forensic Analysis**
 

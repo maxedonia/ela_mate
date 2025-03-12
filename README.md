@@ -33,7 +33,7 @@ _Circled hotspots with ELA analysis at 40% opacity:_
 _Animated GIF composite of JPEG degrading under Error Level Analysis_
 ![PLOT ELA](https://github.com/maxedonia/ela_mate/blob/main/example2/ELA_EXAMPLE2.gif)
 
-*This example shows where edits have been made explicitly with the intention of being known. The hotspots indicating manipulation are circled and can be observed under ELA. I removed the ears of both subjects, as well as attempted to cover up tattoos on the right biceps of each individual using Photoshop. Additional evidence shows that I cropped the image at some point due to the lighter banding along the top border that appears in the images during analysis).*
+*This example shows where edits have been made explicitly with the intention of being known. The hotspots indicating manipulation are circled and can be observed under ELA. I removed the ears of both subjects, as well as attempted to cover up tattoos on the right biceps of each individual using Photoshop. Additional evidence shows that I cropped the image at some point due to the lighter banding along the top border that appears in the images after undergoing analysis.*
 
 ### Example: The Royal Family
 _Source Image:_

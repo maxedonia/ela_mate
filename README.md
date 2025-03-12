@@ -16,6 +16,25 @@ I've added some features that streamline processing different images, paramaters
 - option to convert image to JPG from PNG, WEBP, etc. before analysis.
 - integrating _Noise Analysis_ as a secondary detection method.*
 
+### Example: Self-Analysis
+
+_Edited screencap:_
+![two podcast hosts](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex1.png)
+
+_Hotspot overlay 40% opacity:_
+![without ears](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex2.png)
+
+_ELA hotspot analysis only:_
+![image overlay](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex4.png)
+
+_Circled hotspots with ELA analysis at 40% opacity:_
+![circled hotspots](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex3.png)
+
+_Animated GIF composite of JPEG degrading under Error Level Analysis_
+![PLOT ELA](https://github.com/maxedonia/ela_mate/blob/main/example2/ELA_EXAMPLE2.gif)
+
+*This example shows where edits have been made explicitly with the intention of being known. The hotspots indicating manipulation are circled and can be observed under ELA. I removed the ears of both subjects, as well as attempted to cover up tattoos on the right biceps of each individual using Photoshop. Additional evidence shows that I cropped the image at some point due to the lighter banding along the top border that appears in the images during analysis).*
+
 ### Example: The Royal Family
 _Source Image:_
 
@@ -34,21 +53,10 @@ _Areas observed by naked eye:_
 ![Source NYT](https://github.com/user-attachments/assets/c3284033-5d77-4225-b0dc-a72a76ff52de)
 Source: [nytimes.com](https://www.nytimes.com/2024/03/11/world/europe/kate-middleton-photo-princess-wales.html)
 
-### Example: Self-Analysis
+_Animated GIF composite of JPEG degrading under Error Level Analysis_
+![ELA ANIMATED](https://github.com/maxedonia/ela_mate/blob/main/example/ELA_Animation.gif)
 
-_Edited screencap:_
-![two podcast hosts](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex1.png)
-
-_Hotspot overlay 40% opacity:_
-![without ears](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex2.png)
-
-_ELA hotspot analysis only:_
-![image overlay](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex4.png)
-
-_Circled hotspots with ELA analysis at 40% opacity:_
-![circled hotspots](https://github.com/maxedonia/ela_mate/blob/update-ela-script/example2/Plot_Ex3.png)
-
-*This example shows where edits have been made explicitly with the intention of being known. The hotspots indicating manipulation are circled and can be observed under ELA. I removed the ears of both subjects, as well as attempted to cover up tattoos on the right biceps of each individual using Photoshop. Additional evidence shows that I cropped the image at some point due to the lighter banding along the top border that appears in the images during analysis).*
+*This image is only used as a reference due to its unique nature of origin, and done so only after confirmation from parties involved of their inauthentic qualities. This tool and these images are not meant to bully or force one's perspective or opinion in any way, shape, or form.*
 
 
 
